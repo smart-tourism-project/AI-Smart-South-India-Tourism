@@ -1,0 +1,92 @@
+/* Place Card */
+
+.place-card{
+    width:320px;
+    background:#ffffff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.12);
+    transition:0.3s ease;
+}
+
+.place-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.18);
+}
+
+/* Image */
+
+.place-image{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+/* Content */
+
+.place-content{
+    padding:18px;
+}
+
+.place-content h3{
+    font-size:24px;
+    color:#166534;
+    margin-bottom:10px;
+}
+
+.location{
+    font-size:15px;
+    color:#666;
+    margin-bottom:8px;
+}
+
+.category{
+    display:inline-block;
+    background:#dcfce7;
+    color:#166534;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.rating{
+    color:#f59e0b;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.description{
+    color:#555;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:18px;
+}
+
+/* Button */
+
+.explore-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#15803d;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.explore-btn:hover{
+    background:#166534;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .place-card{
+        width:100%;
+    }
+
+}

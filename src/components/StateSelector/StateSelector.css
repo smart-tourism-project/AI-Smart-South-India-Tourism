@@ -1,0 +1,29 @@
+.selector{
+
+    margin:25px 0;
+
+}
+
+.selector label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-weight:bold;
+
+}
+
+.selector select{
+
+    width:100%;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    font-size:16px;
+
+}

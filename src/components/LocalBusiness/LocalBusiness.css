@@ -1,0 +1,139 @@
+.business-section{
+
+    padding:80px 50px;
+
+    background:#f8fafc;
+
+    text-align:center;
+
+}
+
+.business-section h2{
+
+    font-size:40px;
+
+    color:#166534;
+
+    margin-bottom:15px;
+
+}
+
+.business-section p{
+
+    color:#555;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+.business-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+}
+
+.business-card{
+
+    width:300px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+
+    transition:0.3s;
+
+}
+
+.business-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.business-icon{
+
+    font-size:50px;
+
+    margin-bottom:15px;
+
+}
+
+.business-card h3{
+
+    color:#166534;
+
+    margin-bottom:10px;
+
+}
+
+.rating{
+
+    color:#f59e0b;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+.business-card p{
+
+    color:#555;
+
+    line-height:1.6;
+
+    min-height:90px;
+
+}
+
+.business-card button{
+
+    background:#15803d;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+.business-card button:hover{
+
+    background:#166534;
+
+}
+
+@media(max-width:768px){
+
+.business-section{
+
+padding:50px 20px;
+
+}
+
+.business-card{
+
+width:100%;
+
+}
+
+}

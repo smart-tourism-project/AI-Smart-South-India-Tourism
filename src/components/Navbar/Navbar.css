@@ -1,0 +1,216 @@
+/* Main Navbar */
+
+.navbar {
+
+    background-color: #15803d;
+
+    color: white;
+
+    padding: 15px 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+}
+
+
+
+/* Logo Section */
+
+.logo-section {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+
+.logo-circle {
+
+    width: 45px;
+
+    height: 45px;
+
+    background-color: white;
+
+    color: #15803d;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+.logo-title {
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    margin: 0;
+
+}
+
+
+
+/* Navigation Links */
+
+.nav-links {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: center;
+
+}
+
+
+
+.nav-links a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    transition: 0.3s;
+
+}
+
+
+
+.nav-links a:hover {
+
+    color: #facc15;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+/* Icons Section */
+
+.nav-icons {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+
+.login-icon {
+
+    color: white;
+
+    width: 24px;
+
+    height: 24px;
+
+    transition: 0.3s;
+
+}
+
+
+
+.login-icon:hover {
+
+    color: #facc15;
+
+}
+
+
+
+.menu-icon {
+
+    display: none;
+
+    color: white;
+
+    width: 28px;
+
+    height: 28px;
+
+    cursor: pointer;
+
+}
+.trip-count{
+
+    background:#16a34a;
+
+    color:white;
+
+    font-size:12px;
+
+    padding:3px 8px;
+
+    border-radius:50%;
+
+    margin-left:5px;
+
+}
+
+
+/* Mobile Responsive */
+
+ @media(max-width: 768px) {
+
+
+    .nav-links {
+
+        display: none;
+
+    }
+
+
+    .menu-icon {
+
+        display: block;
+
+    }
+
+
+    .navbar {
+
+        padding: 15px 20px;
+
+    }
+
+
+    .logo-title {
+
+        font-size: 18px;
+
+    }
+
+ }
